@@ -1,8 +1,8 @@
 {
-	"name": "@skyra/discord-components-react",
+	"name": "@clementvt/discord-components-react",
 	"version": "4.0.2",
-	"description": "React bindings for @skyra/discord-components-core",
-	"author": "@skyra",
+	"description": "React bindings for @clementvt/discord-components-core",
+	"author": "@clementvt",
 	"license": "MIT",
 	"main": "dist/cjs/index.cjs",
 	"module": "dist/esm/index.mjs",
@@ -29,8 +29,8 @@
 		"prepack": "yarn build"
 	},
 	"dependencies": {
+		"@clementvt/discord-components-core": "workspace:^",
 		"@lit/react": "^1.0.8",
-		"@skyra/discord-components-core": "workspace:^",
 		"react": "^19.2.0"
 	},
 	"devDependencies": {
@@ -52,7 +52,8 @@
 		"node": ">=v18"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"registry": "https://npm.pkg.github.com"
 	},
 	"repository": {
 		"type": "git",

@@ -1,6 +1,6 @@
 <div align="center">
 
-# @skyra/discord-components-core
+# @clementvt/discord-components-core
 
 <!-- # HEADER START # -->
 
@@ -12,15 +12,15 @@ webpages**
 
 _Core Package_
 
-[![npm](https://img.shields.io/npm/v/@skyra/discord-components-core?color=crimson&logo=npm&style=flat-square&label=@skyra/discord-components-core)](https://www.npmjs.com/package/@skyra/discord-components-core)
-[![npm](https://img.shields.io/npm/dt/@skyra/discord-components-core.svg?maxAge=3600&logo=npm)](https://www.npmjs.com/package/@skyra/discord-components-core)
-[![npm](https://img.shields.io/bundlephobia/min/@skyra/discord-components-core?label=minified&logo=webpack&maxAge=3600)](https://bundlephobia.com/result?p=@skyra/discord-components-core)
+[![npm](https://img.shields.io/npm/v/@clementvt/discord-components-core?color=crimson&logo=npm&style=flat-square&label=@clementvt/discord-components-core)](https://www.npmjs.com/package/@clementvt/discord-components-core)
+[![npm](https://img.shields.io/npm/dt/@clementvt/discord-components-core.svg?maxAge=3600&logo=npm)](https://www.npmjs.com/package/@clementvt/discord-components-core)
+[![npm](https://img.shields.io/bundlephobia/min/@clementvt/discord-components-core?label=minified&logo=webpack&maxAge=3600)](https://bundlephobia.com/result?p=@clementvt/discord-components-core)
 
 _React Bindings_
 
-[![npm](https://img.shields.io/npm/v/@skyra/discord-components-react?color=crimson&logo=npm&style=flat-square&label=@skyra/discord-components-react)](https://www.npmjs.com/package/@skyra/discord-components-react)
-[![npm](https://img.shields.io/npm/dt/@skyra/discord-components-react.svg?maxAge=3600&logo=npm)](https://www.npmjs.com/package/@skyra/discord-components-react)
-[![npm](https://img.shields.io/bundlephobia/min/@skyra/discord-components-react?label=minified&logo=webpack&maxAge=3600)](https://bundlephobia.com/result?p=@skyra/discord-components-react)
+[![npm](https://img.shields.io/npm/v/@clementvt/discord-components-react?color=crimson&logo=npm&style=flat-square&label=@clementvt/discord-components-react)](https://www.npmjs.com/package/@clementvt/discord-components-react)
+[![npm](https://img.shields.io/npm/dt/@clementvt/discord-components-react.svg?maxAge=3600&logo=npm)](https://www.npmjs.com/package/@clementvt/discord-components-react)
+[![npm](https://img.shields.io/bundlephobia/min/@clementvt/discord-components-react?label=minified&logo=webpack&maxAge=3600)](https://bundlephobia.com/result?p=@clementvt/discord-components-react)
 
 [![Support Server](https://discord.com/api/guilds/254360814063058944/embed.png?style=banner2)](https://join.skyra.pw)
 
@@ -34,7 +34,7 @@ _React Bindings_
 
 <!-- # TOC START # -->
 
-- [@skyra/discord-components-core](#skyradiscord-components-core)
+- [@clementvt/discord-components-core](#skyradiscord-components-core)
   - [Description](#description)
     - [Upgrading guide](#upgrading-guide)
   - [Features](#features)
@@ -138,8 +138,8 @@ to the
 ## Installation
 
 ```bash
-yarn add @skyra/discord-components-core
-# or npm install @skyra/discord-components-core
+yarn add @clementvt/discord-components-core
+# or npm install @clementvt/discord-components-core
 ```
 
 <!-- # CORE_USAGE START # -->
@@ -236,7 +236,7 @@ export class AppComponent {}
 React is currently the only library among the "big" libraries for frontend
 development that does not fully support custom elements / webcomponents yet (see
 [this React documentation page for more info](https://react.dev/reference/react-dom/components#custom-html-elements)).
-For this reason we ship the package `@skyra/discord-components-react`.
+For this reason we ship the package `@clementvt/discord-components-react`.
 
 We sincerely hope that this situation will improve in the future, but no one
 knows what their plans are.
@@ -411,12 +411,12 @@ that the browser can support. The live demo below uses Vite.
 
 This library uses a custom object on the browser `window` for configuration.
 Under normal circumstances by simply importing the package (with
-`import @skyra/discord-components-core`) the module augmentations should also be
-loaded. If for whatever reason this does not happen, then you can define them
-manually yourself. You can do so with the following code snippet:
+`import @clementvt/discord-components-core`) the module augmentations should
+also be loaded. If for whatever reason this does not happen, then you can define
+them manually yourself. You can do so with the following code snippet:
 
 ```ts
-import type { DiscordMessageOptions } from '@skyra/discord-components-core';
+import type { DiscordMessageOptions } from '@clementvt/discord-components-core';
 
 declare global {
   // eslint-disable-next-line no-var
@@ -441,7 +441,7 @@ The current avatar shortcut strings available are "blue" (default), "gray",
 
 If you want to add to or override the shortcuts, you can set them via
 `globalThis.$discordMessage.avatars` or by using the `setConfig` function
-(`import { setConfig } from '@skyra/discord-components-core'`).
+(`import { setConfig } from '@clementvt/discord-components-core'`).
 
 ```ts
 globalThis.$discordMessage = {
@@ -454,7 +454,7 @@ globalThis.$discordMessage = {
 ```
 
 ```ts
-import { setConfig } from '@skyra/discord-components-core';
+import { setConfig } from '@clementvt/discord-components-core';
 
 setConfig({
   avatars: {
@@ -470,7 +470,7 @@ setConfig({
 Sometimes you'll want to use the same message data across multiple messages. You
 can do so by providing an object of profiles in
 `globalThis.$discordMessage.profiles` or by using the `setConfig` function
-(`import { setConfig } from '@skyra/discord-components-core'`).
+(`import { setConfig } from '@clementvt/discord-components-core'`).
 
 ```ts
 globalThis.$discordMessage = {
@@ -492,7 +492,7 @@ globalThis.$discordMessage = {
 ```
 
 ```ts
-import { setConfig } from '@skyra/discord-components-core';
+import { setConfig } from '@clementvt/discord-components-core';
 
 setConfig({
   profiles: {

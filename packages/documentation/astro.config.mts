@@ -226,7 +226,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'subject',
-						content: 'Documentation website for @skyra/discord-components-core'
+						content: 'Documentation website for @clementvt/discord-components-core'
 					}
 				},
 				{

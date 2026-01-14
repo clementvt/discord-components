@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file.
 
 # [4.0.0](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.39...v4.0.0) (2025-06-18)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [4.0.0-alpha.39](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.38...v4.0.0-alpha.39) (2025-06-18)
 
@@ -78,7 +78,7 @@ All notable changes to this project will be documented in this file.
 
 # [4.0.0-alpha.34](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.33...v4.0.0-alpha.34) (2024-08-29)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [4.0.0-alpha.33](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.32...v4.0.0-alpha.33) (2024-08-24)
 
@@ -126,7 +126,7 @@ All notable changes to this project will be documented in this file.
 
 # [4.0.0-alpha.28](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.27...v4.0.0-alpha.28) (2024-08-07)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [4.0.0-alpha.27](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.26...v4.0.0-alpha.27) (2024-08-07)
 
@@ -306,7 +306,7 @@ All notable changes to this project will be documented in this file.
 
 # [4.0.0-alpha.6](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.5...v4.0.0-alpha.6) (2024-02-03)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [4.0.0-alpha.5](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.4...v4.0.0-alpha.5) (2024-02-03)
 
@@ -328,11 +328,11 @@ All notable changes to this project will be documented in this file.
 
 # [4.0.0-alpha.2](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.1...v4.0.0-alpha.2) (2024-01-24)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [4.0.0-alpha.1](https://github.com/skyra-project/discord-components/compare/v4.0.0-alpha.0...v4.0.0-alpha.1) (2024-01-23)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [4.0.0-alpha.0](https://github.com/skyra-project/discord-components/compare/v3.6.1...v4.0.0-alpha.0) (2024-01-23)
 
@@ -438,7 +438,7 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [3.0.1](https://github.com/skyra-project/discord-components/compare/v3.0.0...v3.0.1) (2022-01-08)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [3.0.0](https://github.com/skyra-project/discord-components/compare/v2.13.0...v3.0.0) (2022-01-08)
 
@@ -496,7 +496,7 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.11.6](https://github.com/skyra-project/discord-components/compare/v2.11.5...v2.11.6) (2021-11-08)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.11.4](https://github.com/skyra-project/discord-components/compare/v2.11.3...v2.11.4) (2021-11-08)
 
@@ -506,15 +506,15 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.11.3](https://github.com/skyra-project/discord-components/compare/v2.11.3-alpha.3...v2.11.3) (2021-11-08)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.11.3-alpha.3](https://github.com/skyra-project/discord-components/compare/v2.11.3-alpha.2...v2.11.3-alpha.3) (2021-11-08)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.11.3-alpha.2](https://github.com/skyra-project/discord-components/compare/v2.11.3-alpha.1...v2.11.3-alpha.2) (2021-11-08)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.11.3-alpha.1](https://github.com/skyra-project/discord-components/compare/v2.11.3-alpha.0...v2.11.3-alpha.1) (2021-11-08)
 
@@ -531,11 +531,11 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.11.2](https://github.com/skyra-project/discord-components/compare/v2.11.1...v2.11.2) (2021-10-03)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.11.1](https://github.com/skyra-project/discord-components/compare/v2.11.0...v2.11.1) (2021-10-03)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [2.11.0](https://github.com/skyra-project/discord-components/compare/v2.10.1-alpha.0...v2.11.0) (2021-10-02)
 
@@ -546,7 +546,7 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.10.1-alpha.0](https://github.com/skyra-project/discord-components/compare/v2.10.0...v2.10.1-alpha.0) (2021-09-21)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [2.10.0](https://github.com/skyra-project/discord-components/compare/v2.9.1...v2.10.0) (2021-09-12)
 
@@ -556,11 +556,11 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.9.1](https://github.com/skyra-project/discord-components/compare/v2.9.1-alpha.0...v2.9.1) (2021-09-12)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.9.1-alpha.0](https://github.com/skyra-project/discord-components/compare/v2.9.0...v2.9.1-alpha.0) (2021-09-10)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [2.9.0](https://github.com/skyra-project/discord-components/compare/v2.8.1...v2.9.0) (2021-09-05)
 
@@ -586,7 +586,7 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.7.1](https://github.com/skyra-project/discord-components/compare/v2.7.0...v2.7.1) (2021-08-07)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [2.7.0](https://github.com/skyra-project/discord-components/compare/v2.6.0...v2.7.0) (2021-08-07)
 
@@ -657,7 +657,7 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.0.7](https://github.com/skyra-project/discord-components/compare/v2.0.7-alpha.0...v2.0.7) (2021-05-20)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.0.7-alpha.0](https://github.com/skyra-project/discord-components/compare/v2.0.6...v2.0.7-alpha.0) (2021-05-19)
 
@@ -685,11 +685,11 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.0.3](https://github.com/skyra-project/discord-components/compare/v2.0.3-alpha.3...v2.0.3) (2021-05-15)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.0.3-alpha.3](https://github.com/skyra-project/discord-components/compare/v2.0.3-alpha.2...v2.0.3-alpha.3) (2021-05-15)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.0.3-alpha.2](https://github.com/skyra-project/discord-components/compare/v2.0.3-alpha.1...v2.0.3-alpha.2) (2021-05-15)
 
@@ -720,7 +720,7 @@ Co-authored-by: TheBv <bv939@web.de>
 
 ## [2.0.2](https://github.com/skyra-project/discord-components/compare/v2.0.1...v2.0.2) (2020-10-26)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 ## [2.0.1](https://github.com/skyra-project/discord-components/compare/v2.0.0...v2.0.1) (2020-10-07)
 
@@ -813,11 +813,11 @@ Co-authored-by: TheBv <bv939@web.de>
 
 # [1.0.0](https://github.com/skyra-project/discord-components/compare/v1.0.0-alpha.1...v1.0.0) (2020-05-10)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # [1.0.0-alpha.1](https://github.com/skyra-project/discord-components/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2020-05-10)
 
-**Note:** Version bump only for package @skyra/discord-components-core
+**Note:** Version bump only for package @clementvt/discord-components-core
 
 # 1.0.0-alpha.0 (2020-05-10)
 

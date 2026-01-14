@@ -1,4 +1,4 @@
-import * as ReactComponents from '@skyra/discord-components-core';
+import * as ReactComponents from '@clementvt/discord-components-core';
 import { createReactComponent } from './react-components/createComponent.js';
 
 /* IMPORTS START */
@@ -53,8 +53,8 @@ export const DiscordVideoAttachment = createReactComponent('discord-video-attach
 
 /* IMPORTS END */
 
-export type { Avatars, DiscordMessageOptions, DiscordTimestamp, Emoji, LightTheme, Profile } from '@skyra/discord-components-core';
-export { getConfig, setConfig } from '@skyra/discord-components-core';
+export type { Avatars, DiscordMessageOptions, DiscordTimestamp, Emoji, LightTheme, Profile } from '@clementvt/discord-components-core';
+export { getConfig, setConfig } from '@clementvt/discord-components-core';
 
 declare global {
 	// eslint-disable-next-line vars-on-top
