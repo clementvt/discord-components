@@ -288,7 +288,7 @@ export class DiscordEmbed extends LitElement implements LightTheme {
 	 * The embed image to use (displayed at the bottom).
 	 */
 	@property()
-	public accessor image: string;
+	public accessor image: HTMLCanvasElement;
 
 	/**
 	 * The embed video to use (displayed at the bottom, same slot as the image).
@@ -393,7 +393,7 @@ export class DiscordEmbed extends LitElement implements LightTheme {
 		}
 
 		if (this.image) {
-			return html`<img src=${ifDefined(this.image)} alt="Discord embed media" class="discord-embed-image" />`;
+			return html`<span class="discord-embed-image">${this.image}</span>`;
 		}
 
 		return null;
