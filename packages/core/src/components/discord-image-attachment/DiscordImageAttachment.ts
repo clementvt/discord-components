@@ -3,6 +3,7 @@ import { customElement, property } from 'lit/decorators.js';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { styleMap } from 'lit/directives/style-map.js';
 import { when } from 'lit/directives/when.js';
+import type { JSX } from 'react';
 import { validateImageExtension } from '../../util.js';
 
 @customElement('discord-image-attachment')
@@ -38,7 +39,7 @@ export class DiscordImageAttachment extends LitElement {
 	 * @remarks Should be a valid image URL, i.e. matching the regex `/\.(bmp|jpe?g|png|gif|webp|tiff)$/i`
 	 */
 	@property({ reflect: true, attribute: 'url' })
-	public accessor url: string;
+	public accessor url: JSX.Element | string;
 
 	/**
 	 * The height of the image in pixels
@@ -75,7 +76,7 @@ export class DiscordImageAttachment extends LitElement {
 	public accessor customImageElement = false;
 
 	public componentWillRender() {
-		if (!this.customImageElement) {
+		if (!this.customImageElement && typeof this.url === 'string') {
 			validateImageExtension(this.url);
 		}
 	}
