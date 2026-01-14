@@ -5,6 +5,7 @@ import { classMap } from 'lit/directives/class-map.js';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { styleMap } from 'lit/directives/style-map.js';
 import { when } from 'lit/directives/when.js';
+import type { JSX } from 'react';
 import type { Emoji, LightTheme } from '../../types.js';
 import { getGlobalEmojiUrl } from '../../util.js';
 import '../discord-custom-emoji/DiscordCustomEmoji.js';
@@ -288,7 +289,7 @@ export class DiscordEmbed extends LitElement implements LightTheme {
 	 * The embed image to use (displayed at the bottom).
 	 */
 	@property()
-	public accessor image: HTMLCanvasElement;
+	public accessor image: JSX.Element | string;
 
 	/**
 	 * The embed video to use (displayed at the bottom, same slot as the image).
