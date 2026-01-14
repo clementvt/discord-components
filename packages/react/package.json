@@ -1,6 +1,6 @@
 {
 	"name": "@clementvt/discord-components-react",
-	"version": "4.0.2",
+	"version": "4.0.5",
 	"description": "React bindings for @clementvt/discord-components-core",
 	"author": "@clementvt",
 	"license": "MIT",
@@ -29,7 +29,7 @@
 		"prepack": "yarn build"
 	},
 	"dependencies": {
-		"@clementvt/discord-components-core": "workspace:^",
+		"@clementvt/discord-components-core": "^4.0.5",
 		"@lit/react": "^1.0.8",
 		"react": "^19.2.0"
 	},
